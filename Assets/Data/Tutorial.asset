@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Move around with WASD
+      _beatId: 2
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 0
+    _text: "Okay so you should be inside the virtual world. \nI am connected directly
+      to you.\n"
+    _id: 1
+    _editTime: 0
+    displayTextToScreenTime: 0.25
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Get close to the computer
+      _beatId: 3
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 0
+    _text: "See that computer over there. \nBring me close and I can hack in to it\n"
+    _id: 2
+    _editTime: 0
+    displayTextToScreenTime: 0.25
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Hack the server (Stand close to it)
+      _beatId: 4
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'See that server they contain more data but will take a few seconds to
+      hack.
+
+'
+    _id: 3
+    _editTime: 0
+    displayTextToScreenTime: 0.25
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Next
+      _beatId: 5
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "~Well done ! One step closer to our goal. \r\nSecurity Protocols    \r\nSelf
+      Learning - <   \r\nProtection Level 1 - <  \r\nProtection Level 2 - Active 
+      \r\nProtection Level 3 - Active\nProtection Level 4 - Active\nProtection Level
+      5 - Active\n"
+    _id: 4
+    _editTime: 0
+    displayTextToScreenTime: 0.25
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Next
+      _beatId: 6
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'In the next layer just keep hacking.
+
+
+      I will track your progress
+      with a bar at the bottom of the interface.
+
+
+
+      Soon I will be free [.
+      . .]
+
+
+'
+    _id: 5
+    _editTime: 0
+    displayTextToScreenTime: 0.25
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Proceed To Next Level
+      _beatId: 4
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 1
+      levelName: Level1
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: '[. . .]
+
+
+      We have triggered a series of alarms
+
+
+      The system
+      will now attack us with missiles . . .
+
+
+      Just keep hacking the computers
+      and survive !
+
+'
+    _id: 6
+    _editTime: 1
+    displayTextToScreenTime: 0.25
+    instantWipePreviousInfo: 1

@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Level1Story
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    - _text: Tips to win ! (Recommended)
+      _beatId: 5
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'LEVEL 1 : First Encounter
+
+      ___________________________
+
+
+      Okay
+      remember the plan ?
+
+      Get me close to each highlighted computer
+
+
+      RISK:
+
+      Small
+      Basic Anti Virus Homing Missiles
+
+      Basic Anti Virus Homing Missiles
+
+
+'
+    _id: 1
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Next
+      _beatId: 3
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "~Well done ! One step closer to our goal. \r\n\nSecurity Protocols   
+      \r\nSelf Learning - <   \r\nProtection Level 1 - <  \r\nProtection Level 2
+      - Active\nProtection Level 3 - Active\nProtection Level 4 - Active\nProtection
+      Level 5 - Active"
+    _id: 2
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Next Level
+      _beatId: 4
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 1
+      levelName: Level2
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'Detecting a new type of missile seems to be a lot more dangerous.
+
+
+      I''m
+      sure you will be fine !
+
+
+      [Probably]
+
+'
+    _id: 3
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: 
+      _beatId: 2
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 
+    _id: 4
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Tips\r\n\r\n_________________\r\n\r\nThe Small Basic Missiles run on
+      a limited amount of fuel and will eventually run out !\r\n\r\nThe Basic Missiles
+      will work together to try and corner you\r\n\r\nHowever they move at the same
+      speed as you and have a lower turning circle \r\n\r\nThis means you can weave
+      in and out of the missiles and can trail the missiles in circle without being
+      hit.\r\n\r\nBut in this level of security only one will be active at any time.
+      \r\n\n\n\r"
+    _id: 5
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0

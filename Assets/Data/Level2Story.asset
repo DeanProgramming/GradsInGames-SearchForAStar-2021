@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Level2Story
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    - _text: Tips to win ! (Recommended)
+      _beatId: 5
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'LEVEL 2 : Second Encounter
+
+      ___________________________
+
+
+      Okay
+      remember the plan ?
+
+      Get me close to each highlighted computer
+
+
+      RISK:
+
+      Small
+      Basic Anti Virus Homing Missiles
+
+      Basic Anti Virus Homing Missiles
+
+'
+    _id: 1
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Next
+      _beatId: 3
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "~Well done ! One step closer to our goal. \r\n\nSecurity Protocols   
+      \r\nSelf Learning - <   \r\nProtection Level 1 - <  \r\nProtection Level 2
+      - <\nProtection Level 3 - Active\nProtection Level 4 - Active\nProtection Level
+      5 - Active"
+    _id: 2
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Next Level
+      _beatId: 4
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 1
+      levelName: Level3
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'We have a problem....
+
+
+      I am detecting a new type of missile it
+      seems to be a lot more dangerous.
+
+
+      I am sure you will be fine !
+
+
+      [Probably]
+
+
+'
+    _id: 3
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: 
+      _beatId: 2
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 
+    _id: 4
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Tips\r\r\n_________________\r\n\r\nIn this level of security you will
+      face more Basic Anti Virus Missiles they will work together to corner you however
+      they have a poor turning circle this means you can weave in between them.\n\n"
+    _id: 5
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0

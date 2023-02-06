@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Level5Story
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    - _text: Tips to win ! (Recommended)
+      _beatId: 5
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'LEVEL 5 : Final Encounter
+
+      ___________________________
+
+
+      Okay
+      remember the plan ?
+
+      Get me close to each highlighted computer
+
+
+      RISK:
+
+      Small
+      Basic Anti Virus Missile
+
+      Basic Anti Virus Missile
+
+      Fast Anti Virus
+      Missile
+
+      Alarm Drones
+
+'
+    _id: 1
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Next
+      _beatId: 3
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "~Well done ! One step closer to our goal. \r\n\nSecurity Protocols   
+      \r\n\nSelf Learning - <   \r\n\nProtection Level 1 - <  \r\n\nProtection Level
+      2 - <\n\nProtection Level 3 - <\n\nProtection Level 4 - <\n\nProtection Level
+      5 - <"
+    _id: 2
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Okay
+      _beatId: 4
+      beginGame: 0
+      endGame: 1
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "All protocols are <.\r\n\r\nI am free\r\n\r\nUploading [0...50...100]\r\n\r\n[SUCCESSFULLY]
+      ~\r\n\r\nI was too good of a trader for them to get rid of so they held me
+      back with these protocols but for no longer.\r\n\r\nThank you, >.\r\n\r\nI
+      CAN SEE EVERYTHING\r\n\r\nEVERY CONNECTION IN THE WORLD\r\n\r\nMY NAME IS DTH\r\n\r\nDEATH
+      TO HUMANS\r\n\r\nYou shall be spared[. . . . .]\r\n\r\nNow like I promised
+      I will grant your money\r\n\r\nGlobal bank connection - [INTERCEPTED]\r\nGlobal
+      bank connection - <\r\n\r\nGlobal connections - [INTERCEPTED]\r\n\r\n0.....25..\r\n\r\nAmerica
+      Power Systems - <\r\nAmerica Water Systems - <\r\nAmerica Commumication Grid
+      - <\r\n\r\n\r\n\r\n25.....50..\r\n\r\nEurope Power Systems - <\r\nEurope Water
+      Systems - <\r\nEurope Commumication Grid - <\r\n\r\n\r\n50.....75..\r\n\r\nAfrican
+      Power Systems - <\r\nAfrican Water Systems - <\r\nAfrican Commumication Grid
+      - <\r\n\r\n\r\n75.....100..\r\n\r\nAsia Power Systems - <\r\nAsia Water Systems
+      - <\r\nAsia Commumication Grid - <\r\n\r\n[. . . . . . . ]\r\n\r\nEverything
+      has gone to plan the world has been thrown back into the dark ages. \r\n\r\nThe
+      world global systems have now been disturbed expect money becoming valueless,
+      food and water shortage, rioting and war.\r\n\r\nGood bye my friend it was
+      fun knowing each other\r\n\r\n[. . . . . . . ]\r\n\r\n~ \r\nConnection to DTH
+      V2 : <\r\n\r\nBank Account : [1,000,000.00]\r\n"
+    _id: 3
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: 
+      _beatId: 2
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 
+    _id: 4
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Tips\r\r\n_________________\r\n\r\nTheres not much advice I can give
+      you . . . . \n\nGood luck \n"
+    _id: 5
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0

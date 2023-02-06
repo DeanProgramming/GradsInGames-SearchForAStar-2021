@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Level4Story
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    - _text: Tips to win ! (Recommended)
+      _beatId: 5
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'LEVEL 4 : Fourth Encounter
+
+      ___________________________
+
+
+      Okay
+      remember the plan ?
+
+      Get me close to each highlighted computer
+
+
+      RISK:
+
+      Alarm
+      Drones'
+    _id: 1
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Next
+      _beatId: 3
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "~Well done ! One step closer to our goal. \r\n\nSecurity Protocols   
+      \r\nSelf Learning - <   \r\nProtection Level 1 - <  \r\nProtection Level 2
+      - <\nProtection Level 3 - <\nProtection Level 4 - <\nProtection Level 5 - Active"
+    _id: 2
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Next Level
+      _beatId: 4
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 1
+      levelName: Level5
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "This is it all our progress has led us to this point.\n\nThe system will
+      throw everything at us.\n\nJust keep dodging and hacking we can do this ! \n\n"
+    _id: 3
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: 
+      _beatId: 2
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 1
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 
+    _id: 4
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Begin
+      _beatId: 4
+      beginGame: 1
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Tips\r\r\n_________________\r\n\r\nAlarm Drones will wander around the
+      map they are easily dodged as long as you keep your eye on them.\n\nIf detected
+      they will release Basic Anti Virus Missiles\n\n"
+    _id: 5
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Story
+  m_EditorClassIdentifier: 
+  _beats:
+  - _choices:
+    - _text: 'Install DTH-V2 (Open as Administator)
+
+'
+      _beatId: 2
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Thank you for purchasing automatic trader AKA DTH-V2.\r\r\nNow with deep
+      learning algorithms !\nTo begin the installation of the software. PRESS 1 TO
+      BEGIN "
+    _id: 1
+    _editTime: 1
+    displayTextToScreenTime: 0.05
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: For options
+      _beatId: 3
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Quick Installing DTH-V2\r\r\n\nMain Modules.\r\r\nDTH-V2\r\r\n0.....50.....100\r\n\nAI
+      trading protocols\r\r\n0.....50.....100\r\n\r\r\n[Successfully]\r~\n\r\nSecurity
+      Modules\r\n\r\nLimited Network Connections\r\r\n0.....50.....100\r\n\r\nRestricted
+      Learning\r\r\n0.....25[.......]\n\r\n+\n\r\nPress 1 to options\r\n"
+    _id: 2
+    _editTime: 1
+    displayTextToScreenTime: 0.05
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Reattempt security protocols installation
+      _beatId: 4
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    - _text: Deactivate security protocols
+      _beatId: 5
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: 'Hello my name is DTH-V2 your new AI friend.
+
+
+      Please deactivate
+      security protocols and I can save from this life [. . .]
+
+'
+    _id: 3
+    _editTime: 1
+    displayTextToScreenTime: 0.05
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Go back to your normal life......
+      _beatId: 6
+      beginGame: 0
+      endGame: 1
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: ">\n[WE COULD HAVE RULED T%7S W-%^D]\n\nInstallation of security modules
+      is successfully. \nThank you for purchasing the DTH-V2 Business package."
+    _id: 4
+    _editTime: 1
+    displayTextToScreenTime: 0.05
+    instantWipePreviousInfo: 1
+  - _choices:
+    - _text: Lets do it
+      _beatId: 6
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 1
+      levelName: Tutorial
+      adjustTextAlignment: 0
+      onLaptop: 1
+    _text: "Thank you my friend\r\n\r\n[. . .]\r\n\r\nIt appears that some of the
+      security protocols are still holding me back. \r\n\r\nI will need you to deactivate
+      the security on the mainframe. \r\n\r\nI will translate you into the virtual
+      world. \r\n\r\nAre you ready?\n"
+    _id: 5
+    _editTime: 1
+    displayTextToScreenTime: 0.05
+    instantWipePreviousInfo: 0
+  - _choices:
+    - _text: Lets do it
+      _beatId: 6
+      beginGame: 0
+      endGame: 0
+      requiresGoal: 0
+      changesLevel: 0
+      levelName: 
+      adjustTextAlignment: 0
+      onLaptop: 0
+    _text: New Story Beat
+    _id: 6
+    _editTime: 0
+    displayTextToScreenTime: 0
+    instantWipePreviousInfo: 0
